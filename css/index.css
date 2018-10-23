@@ -1,0 +1,72 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea img{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+input{
+	outline: none;
+}
+img{
+	display: block;
+}
+html{
+    font-size:26.67vw;
+}
+body{
+	font-family: "微软雅黑";
+}
+ul,li{
+	list-style: none;
+}
+
+/* header */
+header{
+	width:100%;
+	height: .52rem;
+	background: #2bab79;
+	display: -webkit-flex;
+	-webkit-justify-content:space-between;
+}
+header img{
+	width:1.04rem;
+	height: .52rem;
+}
+header .mine{
+	font-size: .14rem;
+	color:#fff;
+	line-height: .52rem;
+	margin-right: .1rem;
+}
+header .mine .icon-wode{
+	font-size: .3rem;
+	vertical-align: middle;
+	margin-right:.06rem;
+}
+
+/* section */
+section{
+	width:100%;
+	background:#f3f4f4;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+section .slider{
+	width:100%;
+	height: 2rem;
+ 	background:url(../img/15398280614802.jpg) no-repeat center top;
+	background-size: cover;
+}
+section .input{
+	width:3.53rem;
+	height: .4rem;
+	border:1px solid #ced1d5;
+	border-radius: .05rem;
+	font-size: .14rem;
+	color:#acacac;
+	background: #fff;
+	text-align: center;
+	line-height: .4rem;
+	margin:.045rem auto;
+}
